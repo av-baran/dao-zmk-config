@@ -8,6 +8,13 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
+#define DEF 0
+#define RNL 1
+#define LNL 2
+#define RSL 3
+#define LSL 4
+#define ADJ 5
+
 &lt { quick_tap_ms = <180>; };
 &mt { quick_tap_ms = <180>; };
 
@@ -27,7 +34,7 @@
           &kp GRAVE   &kp Q         &kp W        &kp E        &kp R            &kp T                &kp Y      &kp U          &kp I        &kp O         &kp P            &kp BSPC       
           &kp ESC     &mt LSHFT A   &mt LCTRL S  &mt LGUI D   &mt LALT         &kp G                &kp H      &mt RALT J     &mt RGUI K   &mt RCTRL L   &mt RSHFT SEMI   &kp SINGLE_QUOTE
           &kp CAPS    &kp Z         &kp X        &kp C        &kp V            &kp B                &kp N      &kp M          &kp COMMA    &kp DOT       &kp SLASH        &kp LG(SPACE)
-                                                 &kp TAB      &lt 2 SPACE      &mo 4                &mo 3      &lt 1 RET      &kp LC(B)
+                                                 &kp TAB      &lt LNL SPACE      &mo LSL                &mo RSL      &lt RNL RET      &kp LC(B)
                         >;
                 };
 
@@ -54,16 +61,16 @@
           &trans   &trans   &trans   &trans   &trans   &trans           &kp LPAR         &kp RPAR          &none    &none       &kp LEFT_BRACKET   &kp RIGHT_BRACKET
           &trans   &trans   &trans   &trans   &trans   &trans           &kp LEFT         &kp DOWN          &kp UP   &kp RIGHT   &kp PIPE           &kp BACKSLASH
           &trans   &trans   &trans   &trans   &trans   &trans           &kp LEFT_BRACE   &kp RIGHT_BRACE   &kp LT   &kp GT      &none              &kp DEL
-                                     &trans   &trans   &trans           &trans           &none             &mo 5 
+                                     &trans   &trans   &trans           &trans           &none             &mo ADJ
                         >;
                 };
 
                 left_symbol_layer {
                         bindings = <
         &none           &none      &none             &none       &kp PLUS      &kp EQUAL          &trans   &trans   &trans   &trans   &trans   &trans
-        &kp AMPERSAND   &kp EXCL   &kp HOME          &kp PG_UP   &kp PG_DN   &kp END            &trans   &trans   &trans   &trans   &trans   &trans
+        &kp AMPERSAND   &kp EXCL   &kp HOME          &kp PG_UP   &kp PG_DN     &kp END            &trans   &trans   &trans   &trans   &trans   &trans
         &kp DEL         &kp INS    &kp PRINTSCREEN   &none       &kp UNDER     &kp MINUS          &trans   &trans   &trans   &trans   &trans   &trans
-                                                     &mo 5     &none         &trans             &trans   &trans   &trans
+                                                     &mo ADJ       &none         &trans             &trans   &trans   &trans
                         >;
                 };
 
