@@ -61,7 +61,7 @@
                 left_symbol_layer {
                         bindings = <
         &none           &none      &none             &none       &kp PLUS      &kp EQUAL          &trans   &trans   &trans   &trans   &trans   &trans
-        &kp AMPERSAND   &kp EXCL   &kp HOME          &kp PG_UP   &kp PG_DOWN   &kp END            &trans   &trans   &trans   &trans   &trans   &trans
+        &kp AMPERSAND   &kp EXCL   &kp HOME          &kp PG_UP   &kp PG_DN   &kp END            &trans   &trans   &trans   &trans   &trans   &trans
         &kp DEL         &kp INS    &kp PRINTSCREEN   &none       &kp UNDER     &kp MINUS          &trans   &trans   &trans   &trans   &trans   &trans
                                                      &mo 5     &none         &trans             &trans   &trans   &trans
                         >;
