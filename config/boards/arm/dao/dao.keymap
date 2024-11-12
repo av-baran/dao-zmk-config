@@ -42,10 +42,10 @@
 
                 default_layer {
                         bindings = <
-          &kp GRAVE &kp Q       &kp W       &kp E      &kp R          &kp T          &kp Y      &kp U        &kp I       &kp O        &kp P          &kp BSPC       
-          &kp ESC   &hm LSHFT A &hm LCTRL S &hm LGUI D &hm LALT F     &kp G          &kp H      &hm RALT J   &hm RGUI K  &hm RCTRL L  &hm RSHFT SEMI &kp SINGLE_QUOTE
-          &kp CAPS  &kp Z       &kp X       &kp C      &kp V          &kp B          &kp N      &kp M        &kp COMMA   &kp DOT      &kp SLASH      &kp LG(SPACE)
-                                            &kp TAB    &lt LNL SPACE  &mo LSL        &mo RSL    &lt RNL RET  &kp LC(B)
+          &kp GRAVE &kp Q       &kp W       &kp E      &kp R          &kp T             &kp Y          &kp U        &kp I       &kp O        &kp P          &kp BSPC       
+          &kp ESC   &hm LSHFT A &hm LCTRL S &hm LGUI D &hm LALT F     &kp G             &kp H          &hm RALT J   &hm RGUI K  &hm RCTRL L  &hm RSHFT SEMI &kp SINGLE_QUOTE
+          &kp CAPS  &kp Z       &kp X       &kp C      &kp V          &kp B             &kp N          &kp M        &kp COMMA   &kp DOT      &kp SLASH      &kp LG(SPACE)
+                                            &kp TAB    &lt LNL SPACE  &lt LSL LCTRL     &lt RSL RCTRL  &lt RNL RET  &kp LC(B)
                         >;
                 };
 
@@ -87,9 +87,9 @@
 
                 adjust_layer {
                         bindings = <
-        &bootloader   &none          &none          &none          &none          &none                 &none          &none          &none          &none          &none          &bootloader
+        &bootloader   &none          &none          &C_BRI_UP      &C_VOL_UP      &none                 &none          &none          &none          &none          &none          &bootloader
         &bt BT_CLR    &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4          &bt BT_SEL 4   &bt BT_SEL 3   &bt BT_SEL 2   &bt BT_SEL 1   &bt BT_SEL 0   &bt BT_CLR
-        &sys_reset    &none          &none          &none          &none          &none                 &none          &none          &none          &none          &none          &sys_reset
+        &sys_reset    &none          &none          &C_BRI_DN      &C_VOL_DN      &none                 &none          &none          &none          &none          &none          &sys_reset
                                                     &trans         &trans         &trans                &trans         &trans         &trans
                         >;
                 };
