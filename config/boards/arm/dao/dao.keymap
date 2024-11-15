@@ -87,7 +87,7 @@
 
                 left_symbol_layer {
                         bindings = <
-        &none           &GRAVE     &TILDE      &none       &kp PLUS      &kp EQUAL          &trans   &trans   &trans   &trans   &trans   &trans
+        &none           &kp GRAVE  &kp TILDE      &none       &kp PLUS      &kp EQUAL          &trans   &trans   &trans   &trans   &trans   &trans
         &kp AMPERSAND   &kp EXCL   &kp HOME    &kp PG_UP   &kp PG_DN     &kp END            &trans   &trans   &trans   &trans   &trans   &trans
         &kp DEL         &none      &none       &none       &kp UNDER     &kp MINUS          &trans   &trans   &trans   &trans   &trans   &trans
                                                &mo ADJT    &trans         &trans            &trans   &trans   &trans
