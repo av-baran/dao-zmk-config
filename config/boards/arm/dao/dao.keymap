@@ -9,13 +9,11 @@
 #include <dt-bindings/zmk/bt.h>
 
 #define DEF  0
-#define RCTL 1
-#define LCTL 2
-#define RNUM 3
-#define LNUM 4
-#define RSYM 5
-#define LSYM 6
-#define ADJT 7
+#define RNUM 1
+#define LNUM 2
+#define RSYM 3
+#define LSYM 4
+#define ADJT 5
 
 &lt { quick_tap_ms = <180>; };
 &mt { quick_tap_ms = <180>; };
