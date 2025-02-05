@@ -38,7 +38,7 @@
             cmt: custom_mod_tap {
                 compatible = "zmk,behavior-hold-tap";
                 #binding-cells = <2>;
-                flavor = "hold-preffered";
+                flavor = "hold-preferred";
                 require-prior-idle-ms = <125>;
                 quick-tap-ms = <0>;
                 tapping-term-ms = <200>;
