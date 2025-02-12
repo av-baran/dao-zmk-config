@@ -52,8 +52,8 @@
                 default_layer {
                         bindings = <
 &kp LALT        &kp Q         &kp W         &kp E        &kp R        &kp T    &kp Y       &kp U        &kp I        &kp O         &kp P            &kp BSPC
-&kp ESC         &cmt LSHFT A  &cmt LCTRL S  &cmt LGUI D  &cmt LALT F  &kp G    &kp H       &cmt RALT J  &cmt RGUI K  &cmt RCTRL L  &cmt RSHFT SEMI  &kp LG(SPACE)
-&kp CAPS        &kp Z         &kp X         &kp C        &kp V        &kp B    &kp N       &kp M        &kp COMMA    &kp DOT       &kp SLASH        &kp LCTRL
+&kp ESC         &cmt LSHFT A  &cmt LCTRL S  &cmt LGUI D  &cmt LALT F  &kp G    &kp H       &cmt RALT J  &cmt RGUI K  &cmt RCTRL L  &cmt RSHFT SEMI  &kp SINGLE_QUOTE
+&kp CAPS        &kp Z         &kp X         &kp C        &kp V        &kp B    &kp N       &kp M        &kp COMMA    &kp DOT       &kp SLASH        &cmt LCTRL LG(SPACE)
 
                                  &cmt LGUI TAB  &lt LNUM SPACE  &mo LSYM                   &mo RSYM  &lt RNUM RET  &cmt RGUI LC(B) 
                         >;
@@ -81,9 +81,9 @@
 
                 right_symbol_layer {
                         bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LPAR       &kp RPAR        &kp PIPE &kp LEFT_BRACKET &kp RIGHT_BRACKET &cmt LALT BSPC
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT       &kp DOWN        &kp UP   &kp RIGHT        &kp SINGLE_QUOTE  &kp LSHFT
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT_BRACE &kp RIGHT_BRACE &kp LT   &kp GT           &kp BACKSLASH     &kp LCTRL
+&trans  &trans  &trans  &trans  &trans  &trans    &kp LPAR       &kp RPAR        &kp PIPE &kp LEFT_BRACKET &kp RIGHT_BRACKET &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT       &kp DOWN        &kp UP   &kp RIGHT        &none             &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT_BRACE &kp RIGHT_BRACE &kp LT   &kp GT           &kp BACKSLASH     &trans
 
                         &trans  &trans  &trans     &trans  &trans  &mo ADJT
                         >;
