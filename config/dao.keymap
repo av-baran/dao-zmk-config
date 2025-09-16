@@ -44,18 +44,18 @@
                 default_layer {
                         display-name = "MAIN";
                         bindings = <
-&kp LALT        &kp Q         &kp W         &kp E        &kp R        &kp T    &kp Y       &kp U        &kp I        &kp O         &kp P            &kp BSPC
-&kp ESC         &cmt LSHFT A  &cmt LCTRL S  &cmt LGUI D  &cmt LALT F  &kp G    &kp H       &cmt RALT J  &cmt RGUI K  &cmt RCTRL L  &cmt RSHFT SEMI  &kp SINGLE_QUOTE
-&kp CAPS        &kp Z         &kp X         &kp C        &kp V        &kp B    &kp N       &kp M        &kp COMMA    &kp DOT       &kp SLASH        &cmt LCTRL LG(SPACE)
+&kp LALT         &kp Q  &kp W  &kp E  &kp R    &kp T  &kp Y  &kp U  &kp I      &kp O    &kp P      &kp RALT
+&cmt LSHFT ESC   &kp A  &kp S  &kp D  &kp F    &kp G  &kp H  &kp J  &kp K      &kp L    &kp SEMI   &cmt RSHIFT SINGLE_QUOTE
+&cmt LCTRL CAPS  &kp Z  &kp X  &kp C  &kp V    &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp SLASH  &cmt RCTRL LG(SPACE)
 
-                                 &cmt LGUI TAB  &lt LNUM SPACE  &mo LSYM                   &mo RSYM  &lt RNUM RET  &cmt RGUI LC(B) 
+    &cmt LGUI TAB  &lt LNUM SPACE  &mo LSYM    &mo RSYM  &lt RNUM RET  &cmt RGUI LC(B) 
                         >;
                 };
 
                 right_number_layer {
                         display-name = "RNUM";
                         bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &kp F6     &kp F7         &kp F8        &kp F9  &kp F10  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp F6     &kp F7         &kp F8        &kp F9  &kp F10  &kp BSPC
 &trans  &trans  &trans  &trans  &trans  &trans    &kp N6     &kp N7         &kp N8        &kp N9  &kp N0   &kp F11
 &trans  &trans  &trans  &trans  &trans  &trans    &kp CARET  &kp AMPERSAND  &kp ASTERISK  &trans  &trans   &kp F12
 
