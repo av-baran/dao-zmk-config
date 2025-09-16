@@ -77,7 +77,7 @@
                 right_symbol_layer {
                         display-name = "RSYM";
                         bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LPAR       &kp RPAR        &kp PIPE &kp LEFT_BRACKET &kp RIGHT_BRACKET &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp LPAR       &kp RPAR        &kp PIPE &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp BSPC
 &trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT       &kp DOWN        &kp UP   &kp RIGHT        &none             &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT_BRACE &kp RIGHT_BRACE &kp LT   &kp GT           &kp BACKSLASH     &trans
 
